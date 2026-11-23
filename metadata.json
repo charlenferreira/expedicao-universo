@@ -1,0 +1,6 @@
+{
+  "name": "Expedição ao Universo: Nosso Endereço Cósmico",
+  "description": "Aplicação educativa e interativa em Português sobre galáxias, a Via Láctea, a organização do universo, medidas astronômicas e exploração espacial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
