@@ -156,8 +156,8 @@ export function CosmicQuizSection() {
             Desafio Cósmico
           </h2>
           <p className="text-sm sm:text-base text-sky-100/80 leading-relaxed max-w-2xl">
-            Questões no nível do 9º ano sobre galáxias, organização do universo e medidas
-            astronômicas, com situações-problema, cálculos práticos e explicação imediata.
+            Perguntas diretas e acessíveis para quem está começando a aprender sobre galáxias,
+            organização do universo e medidas astronômicas, com explicação imediata a cada resposta.
           </p>
         </header>
 
@@ -166,12 +166,12 @@ export function CosmicQuizSection() {
           <div className="liquid-glass rounded-3xl p-6 sm:p-10 space-y-8">
             <div className="space-y-3">
               <h3 className="font-display text-2xl sm:text-3xl font-semibold text-slate-50">
-                Pronto para o desafio de Ciências do 9º ano?
+                Pronto para começar o desafio de Ciências do 9º ano?
               </h3>
               <p className="text-sm sm:text-base text-sky-100/80 leading-relaxed">
-                O desafio reúne exatamente <strong className="text-slate-100">10 perguntas</strong>{' '}
-                de múltipla escolha elaboradas para o 9º ano. A cada resposta, você confere
-                imediatamente o resultado e uma explicação científica clara para fixar o conteúdo.
+                O jogo traz <strong className="text-slate-100">10 perguntas fáceis e diretas</strong>{' '}
+                para ajudar você a aprender os conceitos básicos sem complicação. A cada resposta,
+                você vê na hora se acertou junto com uma explicação simples.
               </p>
             </div>
 
@@ -185,7 +185,7 @@ export function CosmicQuizSection() {
                   Galáxias e Via Láctea
                 </p>
                 <p className="text-xs text-sky-100/70 mt-1">
-                  Classificação da Via Láctea, Braço de Órion e Sagitário A*.
+                  O que é uma galáxia, formato da Via Láctea e onde fica o Sistema Solar.
                 </p>
               </div>
               <div>
@@ -196,7 +196,7 @@ export function CosmicQuizSection() {
                   Organização do Universo
                 </p>
                 <p className="text-xs text-sky-100/70 mt-1">
-                  Hierarquia cósmica, Grupo Local, Andrômeda e Laniakea.
+                  Ordem do menor para o maior, nossa vizinha Andrômeda e Laniakea.
                 </p>
               </div>
               <div>
@@ -207,7 +207,7 @@ export function CosmicQuizSection() {
                   Medidas Astronômicas
                 </p>
                 <p className="text-xs text-sky-100/70 mt-1">
-                  UA, ano-luz, equivalência do parsec e tempo de viagem da luz.
+                  O que é Unidade Astronômica, quando usar UA, o que mede o ano-luz e o parsec.
                 </p>
               </div>
             </div>

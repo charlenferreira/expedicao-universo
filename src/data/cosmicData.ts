@@ -1045,165 +1045,162 @@ export const EXPLORER_BODIES: ExplorerBody[] = [
   },
 ];
 
-// Exatamente 10 questões de Ciências — 9º Ano (alinhadas à BNCC):
+// Exatamente 10 questões introdutórias e acessíveis (9º Ano — para quem está começando):
 // 3 sobre Galáxias e Via Láctea
 // 3 sobre Organização do Universo
 // 4 sobre Unidade Astronômica, Ano-luz e Parsec
 export const QUIZ_QUESTIONS: QuizQuestion[] = [
-  // --- 3 Questões: Galáxias e Via Láctea (9º Ano) ---
+  // --- 3 Questões: Galáxias e Via Láctea ---
   {
     id: 1,
     category: 'Galáxias e Via Láctea',
-    question:
-      'Ao observar o céu noturno longe das luzes da cidade, vemos uma faixa esbranquiçada atravessando o céu: é a Via Láctea vista de dentro. Do ponto de vista astronômico, o que é a Via Láctea e qual é o seu formato?',
+    question: 'Para começar: o que é uma galáxia?',
     options: [
-      'Um pequeno conjunto de planetas gasosos em formato elíptico.',
-      'Uma galáxia do tipo espiral barrada, formada por bilhões de estrelas, gás, poeira e matéria escura unidos pela gravidade.',
-      'Uma nebulosa irregular que abriga apenas o Sol e seus oito planetas.',
-      'Um cometa gigante de gelo e poeira cósmica que cruza o Sistema Solar.',
+      'Um único planeta gigante cheio de anéis.',
+      'Um enorme conjunto de bilhões de estrelas, planetas, gás e poeira unidos pela gravidade.',
+      'Uma estrela cadente que passa perto da Terra.',
+      'O nome dado apenas ao espaço entre a Terra e a Lua.',
     ],
     correctIndex: 1,
     explanation:
-      'A Via Láctea é uma galáxia espiral barrada com cerca de 100.000 anos-luz de diâmetro e entre 100 e 400 bilhões de estrelas, todas mantidas unidas pela força gravitacional.',
+      'Uma galáxia é um conjunto gigantesco de bilhões de estrelas, planetas, gás e poeira mantidos juntos pela força da gravidade.',
   },
   {
     id: 2,
     category: 'Galáxias e Via Láctea',
-    question:
-      'Em uma atividade de Ciências do 9º ano, a turma precisava indicar no mapa da Via Láctea onde está o Sistema Solar e o que existe no centro da nossa galáxia. Qual afirmação está correta?',
+    question: 'Como se chama a nossa galáxia e qual é o formato dela?',
     options: [
-      'O Sistema Solar fica exatamente no centro da Via Láctea, cercado por planetas anões.',
-      'O Sistema Solar fica fora da Via Láctea, orbitando a Galáxia de Andrômeda.',
-      'O Sistema Solar fica no Braço de Órion (a cerca de 26.000 anos-luz do centro), e no núcleo galáctico existe o buraco negro supermassivo Sagitário A*.',
-      'O Sistema Solar fica na borda de uma galáxia elíptica cujo centro é ocupado pela estrela Próxima Centauri.',
+      'Andrômeda, em formato de triângulo.',
+      'Nebulosa de Órion, em formato quadrado.',
+      'Via Láctea, em formato de espiral (espiral barrada).',
+      'Sistema Solar, em formato de linha reta.',
     ],
     correctIndex: 2,
     explanation:
-      'Nosso Sistema Solar está localizado no Braço de Órion, a aproximadamente 26.000 anos-luz do centro da Via Láctea, onde se encontra o buraco negro supermassivo Sagitário A*.',
+      'Nós vivemos na Via Láctea, uma galáxia do tipo espiral barrada, que parece um grande redemoinho luminoso com braços cheios de estrelas.',
   },
   {
     id: 3,
     category: 'Galáxias e Via Láctea',
-    question:
-      'Os astrônomos classificam as galáxias principalmente por sua forma: espiral, elíptica ou irregular. Qual opção associa corretamente um tipo de galáxia à sua característica principal?',
+    question: 'Em qual parte da Via Láctea está localizado o nosso Sistema Solar?',
     options: [
-      'Galáxias elípticas possuem braços espirais bem definidos e formam muitas estrelas jovens azuladas.',
-      'Galáxias irregulares têm formato esférico perfeito e praticamente não possuem nuvens de gás.',
-      'Galáxias elípticas são sempre menores que o Sistema Solar e não têm atração gravitacional.',
-      'Galáxias espirais apresentam disco giratório com braços luminosos ricos em gás e poeira, onde nascem muitas estrelas novas.',
+      'Bem no centro da galáxia, dentro do buraco negro Sagitário A*.',
+      'Fora da Via Láctea, longe de todas as estrelas.',
+      'Dentro da Galáxia de Andrômeda.',
+      'Em um dos braços da galáxia, chamado Braço de Órion.',
     ],
     correctIndex: 3,
     explanation:
-      'Galáxias espirais (como a Via Láctea e Andrômeda) têm braços ricos em gás e poeira com intensa formação estelar; elípticas têm formato ovalado com estrelas mais antigas, e irregulares não possuem simetria definida.',
+      'O Sistema Solar fica em uma região tranquila de um dos braços espirais chamada Braço de Órion, enquanto no centro da Via Láctea está o buraco negro supermassivo Sagitário A*.',
   },
 
-  // --- 3 Questões: Organização do Universo (9º Ano) ---
+  // --- 3 Questões: Organização do Universo ---
   {
     id: 4,
     category: 'Organização do Universo',
     question:
-      'Imagine escrever um "endereço cósmico" completo da Terra no universo, começando da menor estrutura até a maior. Qual sequência apresenta a ordem crescente correta?',
+      'Pensando no nosso "endereço no universo", qual sequência vai do lugar MENOR para o MAIOR?',
     options: [
-      'Terra → Sistema Solar → Braço de Órion → Via Láctea → Grupo Local → Superaglomerado de Laniakea → Universo Observável.',
-      'Terra → Braço de Órion → Sistema Solar → Grupo Local → Via Láctea → Universo Observável → Laniakea.',
-      'Sistema Solar → Terra → Via Láctea → Braço de Órion → Laniakea → Grupo Local → Universo Observável.',
-      'Terra → Via Láctea → Sistema Solar → Grupo Local → Braço de Órion → Laniakea → Universo Observável.',
+      'Terra → Sistema Solar → Via Láctea → Universo Observável.',
+      'Universo Observável → Via Láctea → Sistema Solar → Terra.',
+      'Via Láctea → Terra → Sistema Solar → Universo Observável.',
+      'Sistema Solar → Universo Observável → Terra → Via Láctea.',
     ],
     correctIndex: 0,
     explanation:
-      'Cada nível está contido no seguinte: a Terra integra o Sistema Solar, no Braço de Órion da Via Láctea; nossa galáxia faz parte do Grupo Local, dentro do Superaglomerado de Laniakea, no Universo Observável.',
+      'A Terra fica no Sistema Solar, que fica dentro da Via Láctea, que por sua vez faz parte do Universo Observável — sempre do menor para o maior!',
   },
   {
     id: 5,
     category: 'Organização do Universo',
     question:
-      'A Via Láctea não está sozinha no espaço: ela pertence a um aglomerado gravitacional com cerca de 80 galáxias. Como se chama esse conjunto e qual é a maior galáxia vizinha que faz parte dele?',
+      'A Via Láctea tem galáxias vizinhas reunidas no chamado Grupo Local. Qual é o nome da grande galáxia vizinha mais famosa da Via Láctea?',
     options: [
-      'Cinturão de Asteroides; Galáxia Sombrero.',
-      'Braço de Perseu; Nebulosa de Órion.',
-      'Grupo Local; Galáxia de Andrômeda (M31).',
-      'Sistema Solar; Próxima Centauri.',
+      'Galáxia de Marte.',
+      'Galáxia de Andrômeda.',
+      'Galáxia da Lua.',
+      'Galáxia de Júpiter.',
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation:
-      'A Via Láctea integra o Grupo Local, um aglomerado de cerca de 80 galáxias dominado por duas grandes espirais: a Via Láctea e a Galáxia de Andrômeda (M31), situada a 2,54 milhões de anos-luz.',
+      'A Galáxia de Andrômeda é a nossa grande vizinha no Grupo Local. Marte, Lua e Júpiter não são galáxias — eles fazem parte do nosso Sistema Solar!',
   },
   {
     id: 6,
     category: 'Organização do Universo',
     question:
-      'Comparando as grandes escalas do cosmos estudadas no 9º ano, qual alternativa descreve corretamente o Superaglomerado de Laniakea e o Universo Observável?',
+      'Além do Grupo Local, nossa galáxia faz parte de uma região ainda maior chamada Superaglomerado de Laniakea. O que existe dentro de Laniakea?',
     options: [
-      'Laniakea é o conjunto de apenas oito planetas ao redor do Sol, e o Universo Observável mede 100.000 anos-luz.',
-      'Laniakea reúne cerca de 100.000 galáxias (incluindo o Grupo Local), e o Universo Observável é toda a região cuja luz já teve tempo de chegar até nós (~93 bilhões de anos-luz de diâmetro).',
-      'O Universo Observável é menor que a Via Láctea, pois nossos telescópios só conseguem observar o Braço de Órion.',
-      'Laniakea é o nome dado à camada atmosférica que protege a Terra dos raios solares.',
+      'Apenas o Sol e os oito planetas.',
+      'Somente a Terra e a Lua.',
+      'Milhares de galáxias reunidas em uma imensa região do espaço.',
+      'Apenas pequenos meteoros e cometas.',
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation:
-      'O Superaglomerado de Laniakea é uma imensa estrutura com cerca de 100.000 galáxias, enquanto o Universo Observável abrange toda a esfera do espaço cuja luz conseguiu alcançar a Terra desde o Big Bang.',
+      'Um superaglomerado é um enorme conjunto de galáxias: Laniakea abriga cerca de 100 mil galáxias, incluindo a Via Láctea e todo o Grupo Local.',
   },
 
-  // --- 4 Questões: Medidas Astronômicas (9º Ano — conceitos e cálculos práticos) ---
+  // --- 4 Questões: Medidas Astronômicas (UA, Ano-luz e Parsec — fáceis e diretas) ---
   {
     id: 7,
     category: 'Medidas Astronômicas',
     question:
-      'A Unidade Astronômica (UA) corresponde à distância média entre a Terra e o Sol (~150 milhões de km). Sabendo que Netuno fica a cerca de 30 UA do Sol, por que usamos a UA no Sistema Solar e quantos quilômetros aproximadamente separam Netuno do Sol?',
+      'Qual relação de distância representa exatamente 1 Unidade Astronômica (1 UA)?',
     options: [
-      'Usamos UA para simplificar distâncias planetárias; Netuno está a cerca de 4,5 bilhões de km do Sol (30 × 150 milhões).',
-      'Usamos UA apenas para medir a temperatura dos planetas; Netuno está a 30 milhões de km do Sol.',
-      'Usamos UA para medir o tempo de rotação da Lua; Netuno está a 150 milhões de km do Sol.',
-      'Usamos UA somente para medir outras galáxias; Netuno está a 30 anos-luz do Sol.',
+      'A distância média entre a Terra e o Sol.',
+      'A distância entre a Terra e Plutão.',
+      'A distância entre a Terra e outra galáxia.',
+      'A distância entre a Terra e a Lua.',
     ],
     correctIndex: 0,
     explanation:
-      'Como 1 UA ≈ 150 milhões de km, multiplicar 30 × 150 milhões resulta em cerca de 4,5 bilhões de km. Usar UA evita números enormes e facilita comparar as órbitas dentro do Sistema Solar.',
+      '1 Unidade Astronômica (1 UA) é a distância média da Terra até o Sol (cerca de 150 milhões de km). Ela serve como uma régua fácil para comparar distâncias no Sistema Solar!',
   },
   {
     id: 8,
     category: 'Medidas Astronômicas',
     question:
-      'A estrela Próxima Centauri está a 4,24 anos-luz da Terra. Em Ciências, o que a unidade "ano-luz" realmente mede e o que isso significa quando observamos a luz dessa estrela hoje?',
+      'Para qual tipo de distância a Unidade Astronômica (UA) é mais usada?',
     options: [
-      'Mede tempo; significa que Próxima Centauri tem exatamente 4,24 anos de idade.',
-      'Mede velocidade; significa que a estrela dá 4,24 voltas ao redor da Terra por ano.',
-      'Mede massa; significa que a estrela é 4,24 vezes mais pesada que o Sol.',
-      'Mede distância; significa que a luz que enxergamos hoje partiu de Próxima Centauri há 4,24 anos.',
+      'Para medir o tamanho de uma sala de aula na Terra.',
+      'Para medir a distância entre a Terra e outra galáxia muito distante.',
+      'Para medir quanto tempo a Terra leva para dar uma volta em si mesma.',
+      'Para medir distâncias dentro do Sistema Solar, como da Terra até outros planetas (Marte, Júpiter ou Netuno).',
     ],
     correctIndex: 3,
     explanation:
-      'Apesar de trazer a palavra "ano", o ano-luz é uma unidade de DISTÂNCIA (~9,46 trilhões de km percorridos pela luz em 1 ano). Por isso, observar astros distantes é sempre observar como eles eram no passado.',
+      'A Unidade Astronômica é ideal para distâncias dentro do Sistema Solar — como entre o Sol, a Terra, Marte, Júpiter, Netuno e Plutão. Para outras galáxias, ela fica pequena demais!',
   },
   {
     id: 9,
     category: 'Medidas Astronômicas',
     question:
-      'A luz percorre o vácuo a cerca de 300.000 km por segundo, e o Sol está a aproximadamente 150 milhões de km da Terra (1 UA). Se o Sol se apagasse de repente agora, em quanto tempo aproximadamente notaríamos a escuridão na Terra?',
+      'Quando ouvimos que uma estrela está a 4 anos-luz da Terra, o que o "ano-luz" está medindo?',
     options: [
-      'Instantaneamente, em 0 segundo, pois a luz não leva tempo para atravessar o espaço.',
-      'Em cerca de 1,3 segundo, o mesmo tempo que a luz leva para viajar da Lua até a Terra.',
-      'Em cerca de 8 minutos e 20 segundos.',
-      'Somente após 1 ano inteiro, pois a distância da Terra ao Sol equivale a 1 ano-luz.',
+      'A idade da estrela em anos.',
+      'O peso da estrela no espaço.',
+      'A distância que a luz percorre viajando durante 1 ano.',
+      'A temperatura da luz emitida pela estrela.',
     ],
     correctIndex: 2,
     explanation:
-      'Dividindo 150.000.000 km por 300.000 km/s, encontramos 500 segundos — cerca de 8 minutos e 20 segundos! Já 1,3 segundo é o tempo que a luz leva para percorrer a distância da Lua até a Terra.',
+      'Apesar de ter a palavra "ano", o ano-luz mede DISTÂNCIA, e não tempo! Ele mostra o quão longe a luz viaja em 1 ano e é usado para medir distâncias entre estrelas e galáxias.',
   },
   {
     id: 10,
     category: 'Medidas Astronômicas',
     question:
-      'Muito usado por astrônomos profissionais para grandes distâncias, 1 parsec (pc) equivale a aproximadamente 3,26 anos-luz. Se uma estrela observada por um telescópio está a 10 parsecs da Terra, qual é a sua distância aproximada em anos-luz?',
+      'Além do ano-luz, astrônomos usam o Parsec (pc) para medir distâncias gigantes entre estrelas e galáxias. A quantos anos-luz equivale aproximadamente 1 Parsec?',
     options: [
+      'Aproximadamente 1 ano-luz.',
       'Aproximadamente 3,26 anos-luz.',
-      'Aproximadamente 32,6 anos-luz.',
-      'Aproximadamente 13,26 anos-luz.',
-      'Aproximadamente 326 anos-luz.',
+      'Aproximadamente 100 anos-luz.',
+      'Menos de 1 minuto de luz.',
     ],
     correctIndex: 1,
     explanation:
-      'Como cada 1 parsec equivale a cerca de 3,26 anos-luz, basta multiplicar 10 × 3,26 = 32,6 anos-luz. Essa equivalência é fundamental para converter distâncias em catálogos astronômicos.',
+      '1 Parsec equivale a cerca de 3,26 anos-luz. É uma unidade de distância ainda maior que o ano-luz, muito usada para mapear estrelas e galáxias distantes.',
   },
 ];
 
